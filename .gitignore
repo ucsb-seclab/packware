@@ -1,0 +1,12 @@
+.idea/*
+data/*
+data2/*
+data3/*
+*.tar
+**/*.joblib
+**/encoders
+data2/*
+**/__pycache__/*
+**.DS_Store
+mount-samples.sh
+**/nn/model-*
