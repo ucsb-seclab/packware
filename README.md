@@ -38,9 +38,10 @@ To download only Wild Dataset, run the following command:
 mkdir data; cd data/; wget https://drive.google.com/file/d/1stVX2-APaiH9XvXhVpySMkRmnLqsSCLM/view?usp=sharing; cd ..; 
 ```
 
-To download the samples, please contact us. We have all the samples on our server, and we are happy to share it with the community. We do our best to make this process smooth. Unfortunately, the huge size of the executable files prevented us from sharing them on the cloud. Also, there are always serious legitimate concerns with putting this huge number of malware samples in the wild.
+To download the samples, please contact us. We have all the samples on our server, and we are happy to share it with the community. We do our best to make this process smooth. Unfortunately, there are always serious legitimate concerns with putting this huge number of malware samples in the wild.
 As we fully explained in the paper, we used Cuckoo and Deep Packer Inspection tools to create our datasets. All the file related to this process, including the dynamic behavior of samples are available on demand. We are happy to provide that also.
 We also can provide the VirusTotal reports for all the executables in our datasets.
+Please read [here](https://github.com/ucsb-seclab/packware/blob/master/datasets/README.md) before contacting us.
 ## 3. Docker
 In order to use our source code in the docker image, you first need to properly install Docker.
 To download (and load) the docker image that we used for our experiments, run the following command:
