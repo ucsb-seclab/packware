@@ -1,7 +1,7 @@
 Before everything, we need to mention again that you are able to produce our experiments without any need of sample files. For that, you need to download and use the pickle dataframes containing the features and labels.
 
 Anyway, we understand that some researchers might need to look at the binaries.
-Since all the executables in the wild are already on VirusTotal, you can use SHA1s of executables (provided in the pickle dataframes) to download samples from VirusTotal or any other source.
+Since all the executables in the wild are already on VirusTotal, you can use SHA1s of executables (provided in the pickle dataframes) to download samples from VirusTotal or any other source. We are able to share them with you as well.
 
 ## Conditions Needed To Access Samples
 We are happy to release our dataset to the community. However, to avoid this dataset being misused, please read and agree to the following conditions before sending us emails.
