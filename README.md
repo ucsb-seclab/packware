@@ -29,13 +29,21 @@ For details, you may read the paper (Section IV).
 All these two datasets are stored in a single pickle file (using pandas package). Column ```source``` determines the source of each sample, ```wild``` and ```wild-ember``` mean the sample has been seen in the wild, by the anti-malware vendor or Endgame, and ```lab``` means we have created the sample by packing a sample from Wild Dataset.
 ```packed``` column determines if the sample is packed or not. ```malicious``` column determines if the sample is malicious or not. ```packer_name``` determines the packer which is used to pack the sample, ```none``` is set for unpacked samples. For samples from Lab Dataset, the column ```unpacked_sample_sha1``` determines the sha1sum of the executable before packing. This might be helpful for some experiments, as we are able to track back the history of the sample. In general, the name of the columns should be self-descriptive.
 
-To download the pickle file, run the following command:
+To download the pickle file, navigate to [this url](https://drive.google.com/file/d/1PMCHM46mc4lhjMczfIDP45w_LGKTea8q/view?usp=sharing) or [install gdrive](https://github.com/odeke-em/drive/releases) and run the following commands (NOTE: you will need to use a web browser to authorize gdrive to use your credentials):
+```sh
+mkdir data
+cd data/
+drive init
+# ... copy authorization url to your browser ...
+drive pull -id 1PMCHM46mc4lhjMczfIDP45w_LGKTea8q
 ```
-mkdir data; cd data/; wget https://drive.google.com/file/d/1PMCHM46mc4lhjMczfIDP45w_LGKTea8q/view?usp=sharing; cd ..; 
-```
-To download only Wild Dataset, run the following command:
-```
-mkdir data; cd data/; wget https://drive.google.com/file/d/1stVX2-APaiH9XvXhVpySMkRmnLqsSCLM/view?usp=sharing; cd ..; 
+To download only Wild Dataset, navigate to [this url](https://drive.google.com/file/d/1stVX2-APaiH9XvXhVpySMkRmnLqsSCLM/view?usp=sharing) or [install gdrive](https://github.com/odeke-em/drive/releases) and run the following commands (see NOTE above):
+```sh
+mkdir data
+cd data/
+drive init
+# ... copy authorization url to your browser ...
+drive pull -id 1stVX2-APaiH9XvXhVpySMkRmnLqsSCLM
 ```
 
 To download the samples, please contact us. We have all the samples on our server, and we are happy to share it with the community. We do our best to make this process smooth. Unfortunately, there are always serious legitimate concerns with putting this huge number of malware samples in the wild.
@@ -44,13 +52,16 @@ We also can provide the VirusTotal reports for all the executables in our datase
 Please read [here](https://github.com/ucsb-seclab/packware/blob/master/datasets/README.md) before contacting us.
 ## 3. Docker
 In order to use our source code in the docker image, you first need to properly install Docker.
-To download (and load) the docker image that we used for our experiments, run the following command:
+To download the docker image that we used for our experiments, navigate to [this url](https://drive.google.com/file/d/1c7lOFLIf4rA2HRqfdRaEvYsbTSRlTjwE/view?usp=sharing) or [install gdrive](https://github.com/odeke-em/drive/releases) and run the following commands:
+```sh
+drive init
+# ... copy authorization url to your browser ...
+drive pull -id 1c7lOFLIf4rA2HRqfdRaEvYsbTSRlTjwE
 ```
-wget https://drive.google.com/file/d/1c7lOFLIf4rA2HRqfdRaEvYsbTSRlTjwE/view?usp=sharing; ./load_image.sh packware-docker.tar
-```
-Then, run the container:
-```
-./run_docker.sh
+Then, to load and run the container:
+```console
+$ ./load_image.sh packware-docker.tar
+$ ./run_docker.sh
 ```
 Now, you can run all the experiments.
 ## 4. Experiments
