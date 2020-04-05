@@ -35,7 +35,7 @@ mkdir data
 cd data/
 drive init
 # ... copy authorization url to your browser ...
-drive pull -id 1PMCHM46mc4lhjMczfIDP45w_LGKTea8q
+drive pull -id 1PMCHM46mc4lhjMczfIDP45w_LGKTea8q # md5sum: 8e692830252339d4a9410959e0607e71
 ```
 To download only Wild Dataset, navigate to [this url](https://drive.google.com/file/d/1stVX2-APaiH9XvXhVpySMkRmnLqsSCLM/view?usp=sharing) or [install gdrive](https://github.com/odeke-em/drive/releases) and run the following commands (see NOTE above):
 ```sh
@@ -43,7 +43,7 @@ mkdir data
 cd data/
 drive init
 # ... copy authorization url to your browser ...
-drive pull -id 1stVX2-APaiH9XvXhVpySMkRmnLqsSCLM
+drive pull -id 1stVX2-APaiH9XvXhVpySMkRmnLqsSCLM # md5sum: 2afe2fb2a04ac96fe004983db0121c80
 ```
 
 To download the samples, please contact us. We have all the samples on our server, and we are happy to share it with the community. We do our best to make this process smooth. Unfortunately, there are always serious legitimate concerns with putting this huge number of malware samples in the wild.
@@ -56,7 +56,7 @@ To download the docker image that we used for our experiments, navigate to [this
 ```sh
 drive init
 # ... copy authorization url to your browser ...
-drive pull -id 1c7lOFLIf4rA2HRqfdRaEvYsbTSRlTjwE
+drive pull -id 1c7lOFLIf4rA2HRqfdRaEvYsbTSRlTjwE # md5sum: 1e198bfd8ca37a5f49d0b380e85234d2
 ```
 Then, to load and run the container:
 ```console
