@@ -22,5 +22,5 @@ Please note that, any email not following these conditions might be ignored. Als
 6. [University of Illinois Urbana-Champaign](https://cs.illinois.edu/)
 7. [University of Science and Technology of China, Laboratory for Future Network](https://lfn.ustc.edu.cn/)
 8. [Seoul National University](http://sor.snu.ac.kr)
-9. [Georgia Institute of Technology](georgia institute of technology)
+9. [Georgia Institute of Technology](https://www.gatech.edu)
 10. [Indian Institute of Technology Indore](http://cse.iiti.ac.in/)
