@@ -13,7 +13,7 @@ We are happy to release our dataset to the community. However, to avoid this dat
 
 Please note that, any email not following these conditions might be ignored. Also note that, we keep the (public) list of organizations accessing these samples here. 
 
-## Organizations Reguested Our Dataset:
+## Organizations Reguested Binary Samples:
 1. [The MITRE Corporation](https://www.mitre.org)
 2. [University of Central Florida](https://www.ucf.edu)
 3. [Johns Hopkins University](https://www.jhu.edu)
@@ -24,3 +24,16 @@ Please note that, any email not following these conditions might be ignored. Als
 8. [Seoul National University](http://sor.snu.ac.kr)
 9. [Georgia Institute of Technology](https://www.gatech.edu)
 10. [Indian Institute of Technology Indore](http://cse.iiti.ac.in/)
+11. [Zhejiang University, China](https://www.zju.edu.cn/english/)
+12. [University of Luxembourg](https://wwwen.uni.lu)
+13. [Beijing Institute of Technology](http://english.bit.edu.cn/)
+14. [Wuhan University in China](https://en.whu.edu.cn)
+15. [Peng Cheng National Laboratory in China](http://www.szpclab.com/)
+16. [Sungkyunkwan University, South Korea](https://www.skku.edu/eng/index.do)
+17. [TU Delft](https://www.tudelft.nl/en/)
+18. [University of Padova](https://www.unipd.it)
+19. [Rochester Institute of Technology](https://www.rit.edu)
+20. [Sichuan University in China](https://en.scu.edu.cn)
+21. [Korea University](http://protocol.korea.ac.kr)
+22. [University of Oxford](https://www.ox.ac.uk)
+23. [UCLouvain in Belgium](https://uclouvain.be/en/index.html)
