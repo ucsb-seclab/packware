@@ -16,7 +16,12 @@ In this paper, we have investigated the following question: does static analysis
 
 If you find this work useful for your research you may want cite our paper.
 ```
-TO BE FILLED LATER.
+@inproceedings{aghakhani2020malware,
+  title={When Malware is Packin'Heat; Limits of Machine Learning Classifiers Based on Static Analysis Features},
+  author={Aghakhani, Hojjat and Gritti, Fabio and Mecca, Francesco and Lindorfer, Martina and Ortolani, Stefano and Balzarotti, Davide and Vigna, Giovanni and Kruegel, Christopher},
+  booktitle={Network and Distributed Systems Security (NDSS) Symposium 2020},
+  year={2020}
+}
 ```
 
 ## 2. Dataset
